@@ -2346,4 +2346,32 @@ input.num-product::-webkit-inner-spin-button {
     margin: 0; 
 }
 
+.logo{
+  color: #FFFFFF;
+}
 
+.container-menu-header-v2{
+  background: #ff0000;
+}
+
+.topbar2{
+  background: #000000;
+  
+}
+
+.topbar2>a{
+  color: #FFFFFF;
+}
+
+.wrap_header{
+  background: #000000; 
+}
+
+.main_menu>li>a{
+  color: #FFFFFF;
+}
+
+.main_menu>li>a:hover{
+  color: #ff0000;
+  border-bottom: 2px solid #ff0000;
+}
