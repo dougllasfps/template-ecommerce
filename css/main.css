@@ -115,7 +115,7 @@ a:focus {
 
 a:hover {
 	text-decoration: none;
-	color: #e65540;
+	color: #FF0000;
 }
 
 /* ------------------------------------ */
@@ -212,7 +212,7 @@ iframe {
     -o-animation: ball-scale infinite linear .75s;
     animation: ball-scale infinite linear .75s;
     border-radius: 100%;
-    background-color: #e65540;
+    background-color: #FF0000;
 }
 
 @-webkit-keyframes ball-scale {
@@ -410,12 +410,12 @@ iframe {
 }
 
 .select2-container .select2-results__option[aria-selected="true"] {
-  background-color: #e65540;
+  background-color: #FF0000;
   color: white;
 }
 
 .select2-container .select2-results__option--highlighted[aria-selected] {
-  background-color: #e65540;
+  background-color: #FF0000;
   color: white;
 }
 
@@ -675,7 +675,7 @@ iframe {
 }
 
 li.sale-noti > a {
-  color: #e65540;
+  color: #FF0000;
 }
 
 .main_menu > li:hover > a {
@@ -736,7 +736,7 @@ li.sale-noti > a {
 }
 
 .sub_menu > li:hover > a {
-  color: #e65540;
+  color: #FF0000;
   text-decoration: none;
 }
 
@@ -1056,7 +1056,7 @@ li.sale-noti > a {
 .side-menu .main-menu {margin-bottom: 0;}
 
 .item-menu-mobile {
-  background-color: #e65540;
+  background-color: #000000;
 }
 
 .side-menu .main-menu > li > a {
@@ -1113,7 +1113,7 @@ li.sale-noti > a {
 .side-menu .sub-menu a:hover {
   text-decoration: none;
   padding-left: 20px;
-  color: #e65540 !important;
+  color: #FF0000 !important;
 }
 
 .side-menu .sub-menu {
@@ -1401,7 +1401,7 @@ li.sale-noti > a {
 }
 
 .arrow-slick1:hover {
-  background-color: #e65540;
+  background-color: #FF0000;
 }
 
 .next-slick1 {
@@ -1572,7 +1572,7 @@ li.sale-noti > a {
 }
 
 .swal-button {
-    background-color: #e65540;
+    background-color: #FF0000;
     font-family: Montserrat-Regular;
     font-size: 15px;
     color: white;
@@ -1590,7 +1590,7 @@ li.sale-noti > a {
 }
 
 .swal-button:active {
-    background-color: #e65540;
+    background-color: #FF0000;
 }
 
 .swal-title {
@@ -1660,7 +1660,7 @@ li.sale-noti > a {
 }
 
 .block2-labelsale::before {
-  background-color: #e65540;
+  background-color: #FF0000;
   content: 'Sale';
 }
 
@@ -1733,7 +1733,7 @@ li.sale-noti > a {
 
 .block2-btn-towishlist .icon_heart {
   display: block;
-  color: #e65540;
+  color: #FF0000;
 }
 
 /* ------------------------------------ */
@@ -2182,7 +2182,7 @@ li.sale-noti > a {
 }
 
 .tag-item:hover {
-  border: 1px solid #e65540;
+  border: 1px solid #FF0000;
 }
 
 
@@ -2373,5 +2373,25 @@ input.num-product::-webkit-inner-spin-button {
 
 .main_menu>li>a:hover{
   color: #ff0000;
-  border-bottom: 2px solid #ff0000;
+}
+
+.main_menu>li:hover{
+  color: #ff0000;
+  border-bottom: 5px solid #ff0000;
+}
+
+body > header > div.wrap-side-menu > nav > ul > li > a:hover{
+  color: #ff0000;
+}
+
+.wrap_header_mobile{
+  background: #000000;
+}
+
+.wrap_header_mobile > a{
+  color: #FF0000;
+}
+
+.wrap_header_mobile > a:hover{
+  color: #FFFFFF;
 }
